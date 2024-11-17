@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Orders = () => {
+const HistoryOrders = () => {
     const [orders, setOrders] = useState([]);
     const [newOrder, setNewOrder] = useState('');
 
